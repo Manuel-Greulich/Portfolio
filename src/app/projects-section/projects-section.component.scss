@@ -1,0 +1,135 @@
+// .third-section {
+//     // height: 1200px;
+//     background-color: #000000;
+//     color: white;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+// .third-section-content {
+//     max-width: 800px;
+//     width: 100vw;
+// }
+
+// h2{
+//     text-align: center;
+//     padding: 40px;
+// }
+
+// .work-buttons {
+//     display: flex;
+//     justify-content: center;
+
+//         button {
+//             text-decoration: none;
+//             background-color: #000000;
+//             color: white;
+//             border: 1px solid #fa2759;
+//             width: 100px;
+//             height: 60px;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             cursor: pointer;
+//             margin: 5px;
+
+//             &:hover {
+//                 filter: brightness(1.3);
+//                 background-color: #fa2759;
+//             }
+//         }
+// }
+
+// .work-section {
+//     align-items: center;
+//     flex-direction: column;
+//     padding: 20px;
+// }
+
+// .work-style {
+//     width: 300px;
+//     height: 300px;
+//     padding: 40px;
+// }
+
+h3{
+    font-size: 28px;
+    color: white;
+}
+h2{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+p{
+    color: white;
+    margin-bottom: 80px;
+}
+
+
+.work-section{
+    background-color: #000000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.work {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    margin-bottom: 100px;
+
+}
+
+
+.work-box{
+    
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+
+    span {
+        color: white;
+    }
+}
+
+.work-buttons{
+    align-items: center;
+    text-align: center;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+
+button{
+    font-size: 18px;
+    border: 1px solid #2DFCD8;
+    height: 55px;
+    width: 125px;
+    background-color: black;
+    color: #2DFCD8;
+    margin-left: 15px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #2DFCD8;
+        color: white;
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+<header>
+    <div class="menu-header"> 
+        <div class="navbar">
+           <a href=""> <img class="logo-white" src="assets/img/logo-white.png" alt=""> </a>
+           <div class="hideMobile navbar-links">
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">MY WORK</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+           </div>
+
+            <div class="mobileNavbar hideDesktop">
+                <img (click)="mobileNavbar()" src="./assets/img/menu.png">
+            </div>
+
+            <div id="mobileNavbarContent" class="d-none hideDesktop">
+                <span (click)="closeMobileNavbar()" class="closeMobileBtn">X</span>
+                <a href="#">HOME</a>
+                <a (click)="openSkills()" href="#skills">SKILLS</a>
+                <a (click)="openmyWork()" href="#projects">MY WORK</a>
+                <a (click)="openAbout()" href="#about">ABOUT</a>
+                <a (click)="openContact()" href="#contact">CONTACT</a>
+            </div>
+        </div>
+    </div> 
+</header>
