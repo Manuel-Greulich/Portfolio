@@ -19,13 +19,6 @@ header{
     justify-content: space-between;
     align-items: center;
     
-    a {
-        color: white;
-        text-decoration: none;
-        letter-spacing: 2px;
-        cursor: pointer;
-        padding: 20px;
-    }
 
     a:hover{
        color: #FA2759; 
@@ -36,22 +29,20 @@ header{
         height: 70px;
         width: 70px;
         margin-top: 20px;
-        padding: 0 !important;
     }
 }
-// .navbar-links{
-//     a {
-//         color: white;
-//         text-decoration: none;
-//         letter-spacing: 2px;
-//         cursor: pointer;
-//     }
 
-//     a:hover{
-//        color: #FA2759; 
-//     }
 
-// }
+.navbar-links {
+    a {
+        color: white;
+        text-decoration: none;
+        letter-spacing: 2px;
+        cursor: pointer;
+        padding: 20px;
+    }
+}
+
 
 
 

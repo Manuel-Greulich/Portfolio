@@ -19,13 +19,26 @@ h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
+
+    @media (max-width: 1100px) {
+        font-size: 36px;
+    }
 }
 
 .intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 60px;
+
+
+
+    @media (max-width: 1100px) {
+        flex-direction: column-reverse;
+        margin-top: unset !important;
+    }
 }
+
 
 
 .btn-contact {
@@ -43,6 +56,10 @@ h1 {
         &:hover {
             background-color: #2DFCD8;
             color: white;
+        }
+
+        @media (max-width: 1100px) {
+            width: unset !important;
         }
     }
 
@@ -69,7 +86,11 @@ h1 {
         width: 300px;
         height: auto;
         border-radius: 100%;
-    
+
+        @media (max-width: 1100px) {
+            width: 200px;
+            height: 200px;
+        }
     }
 }
 
@@ -80,6 +101,7 @@ h1 {
     border: 1px solid white;
     border-radius: 100%;
     padding: 10px;
+    
 }
 
 
