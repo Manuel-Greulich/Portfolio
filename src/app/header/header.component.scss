@@ -83,11 +83,22 @@ header{
         text-decoration: none;
         font-size: 40px;
         margin-top: 40px;
+        cursor: pointer;
+
+        &:hover {
+            color: #2dfcd8;
+        }
     }
+
 }
 
 .closeMobileBtn{
     font-size: 28px;
+    cursor: pointer;
+    
+    &:hover {
+        color: #2dfcd8;
+    }
 }
 
 @media (max-width: 1110px) {
